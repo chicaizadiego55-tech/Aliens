@@ -82,7 +82,7 @@ public class AlienTestIA {
         assertEquals(5, alien.getNumeroBrazos());
         assertEquals(0, alien.getNumeroPies());
     }
-
+    
     @Test
     public void precioTotalDespuesDeAgregarElementos() {
 
@@ -102,5 +102,7 @@ public class AlienTestIA {
 
         assertEquals(7.5, alien.getPrecioTotal());
     }
+
+
 }
 
